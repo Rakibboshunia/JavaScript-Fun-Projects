@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fun Project</title>
 </head>
 <body>
 
@@ -15,65 +14,56 @@
 
         let score = prompt("Enter your score (0-100):");
         let Grade;
+        let Remarks;
         score = Number(score);
 
         switch(true){
-            case (score >= 80 && score <=100):
-                Grade_point = 4.00;
+            case (score >= 80 && score <=100): 
                 Grade = "A+";
                 Remarks = "First Class";
                 break;
 
             case (score >= 75 && score < 79):
-                Grade_point = 3.75;
                 Grade = "A";
                 Remarks = "First Class";
                 break;
 
             case (score >= 70 && score < 74):
-                Grade_point = 3.50;
                 Grade = "A-";
                 Remarks = "First Class";
                 break;
 
             case (score >= 65 && score < 69):
-                Grade_point = 3.25;
                 Grade = "B+";
                 Remarks = "First Class";
                 break;
             
             case (score >= 60 && score < 64):
-                Grade_point = 3.00; 
                 Grade = "B";
                 Remarks = "First Class";
                 break;
 
             case (score >= 55 && score < 59):
-                Grade_point = 2.75;
                 Grade = "B-";
                 Remarks = "Second Class";
                 break;
 
             case (score >= 50 && score < 54):
-                Grade_point = 2.50;
                 Grade = "C+";
                 Remarks = "Second Class";
                 break;
 
             case (score >= 45 && score < 49):
-                Grade_point = 2.25;
                 Grade = "C";
                 Remarks = "Second Class upper";
                 break;
 
             case (score >= 40 && score < 44):
-                Grade_point = 2.00;
                 Grade = "D";
                 Remarks = "Third Class";
                 break;
 
             case (score >= 0 && score < 39):
-                Grade_point = 0.00;
                 Grade = "F";
                 Remarks = "Fail";
                 break;

@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculating GCD</title>
+</head>
+<body>
+
+    <script>
+
+        // Fun Project 06: Calculating GCD
+
+        function gcd(m,n){
+            if(m==0){  
+                return n;
+            }
+            if (n==0){
+                return m;
+            }
+
+            if(m>n){
+                return gcd(m%n,n);  // m is greater
+            }
+            else {
+                return gcd(m,n%m);  // n is greater
+            }
+        }
+
+        document.write(gcd(45,15));
+
+    </script>
+
+</body>
+</html>

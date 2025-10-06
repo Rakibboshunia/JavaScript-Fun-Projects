@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <img id="img1" src="./pic/pic.png" alt="./pic/pic.png" width="200px" height="200px" style="border-radius: 50%; object-fit: cover;">
+    <img id="img1" src="./pic.png" alt="./pic/pic.png" width="200px" height="200px" style="border-radius: 50%; object-fit: cover;">
 
     <br>
 
@@ -26,7 +26,7 @@
         // DOM - Document Object Model manipulation
         
         function changeSrc(id){
-            document.getElementById(id).src = './pic/dog.gif';
+            document.getElementById(id).src = './dog.gif';
         }
 
         function changeColor(id){

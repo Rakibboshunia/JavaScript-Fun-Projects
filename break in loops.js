@@ -1,3 +1,5 @@
+//break in loops
+
 for(let i=0; i<10; i++){ 
             document.write('statment 1: ' + i + "<br>"); //
             if(i == 6){  // even number

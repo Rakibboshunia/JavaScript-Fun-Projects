@@ -1,3 +1,4 @@
+
 //More on if - else if - else statements
 
         let a = Number(prompt("Enter a number:"));
@@ -14,7 +15,6 @@
             document.write("Out of range" +"<br>");
         }
 
-        
         // Check if a number is the smallest number among three numbers 		using if...else
 
         if(a>range1 || a>range2){

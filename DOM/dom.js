@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
 </head>
+    
 <body>
 
     <img id="img1" src="./pic.png" alt="./pic/pic.png" width="200px" height="200px" style="border-radius: 50%; object-fit: cover;">
@@ -19,8 +21,6 @@
 
     <button onclick="changeColor ('p1')">Change Me</button>
     
-
-
     <script>
 
         // DOM - Document Object Model manipulation
@@ -34,7 +34,6 @@
         }
 
     </script>
-
 
 </body>
 </html>

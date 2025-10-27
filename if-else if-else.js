@@ -1,4 +1,3 @@
-
 //More on if - else if - else statements
 
         let a = Number(prompt("Enter a number:"));

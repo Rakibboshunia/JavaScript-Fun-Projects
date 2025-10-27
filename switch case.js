@@ -35,3 +35,4 @@
             default:
                 document.write("Unknown day");
         }
+

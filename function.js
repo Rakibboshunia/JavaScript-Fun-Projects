@@ -8,7 +8,6 @@
 
         printInfo();
 
-
 // Function with parameters
         
         function printInfo(name ,course){
@@ -19,7 +18,6 @@
 
         printInfo("Abul Kalam","Javascript for beginners");
         printInfo("Al Rakib Bosunia", "HTML & CSS");
-
 
 //Multiplication tables using function
 

@@ -1,5 +1,4 @@
-//weekend or weekday using switch case statement
-        
+//weekend or weekday using switch case statement        
         let date = new Date();
         let day = date.getDay();
 
